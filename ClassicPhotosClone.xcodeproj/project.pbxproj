@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		FD4E22F51F39AD3400749FFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4E22F41F39AD3400749FFF /* AppDelegate.swift */; };
-		FD4E22F71F39AD3400749FFF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4E22F61F39AD3400749FFF /* ViewController.swift */; };
 		FD4E22FA1F39AD3400749FFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD4E22F81F39AD3400749FFF /* Main.storyboard */; };
 		FD4E22FC1F39AD3400749FFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD4E22FB1F39AD3400749FFF /* Assets.xcassets */; };
 		FD4E22FF1F39AD3400749FFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD4E22FD1F39AD3400749FFF /* LaunchScreen.storyboard */; };
+		FD4E23071F39ADB300749FFF /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4E23061F39ADB300749FFF /* ListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FD4E22F11F39AD3400749FFF /* ClassicPhotosClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClassicPhotosClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD4E22F41F39AD3400749FFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FD4E22F61F39AD3400749FFF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FD4E22F91F39AD3400749FFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FD4E22FB1F39AD3400749FFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD4E22FE1F39AD3400749FFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD4E23001F39AD3400749FFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD4E23061F39ADB300749FFF /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +55,11 @@
 			isa = PBXGroup;
 			children = (
 				FD4E22F41F39AD3400749FFF /* AppDelegate.swift */,
-				FD4E22F61F39AD3400749FFF /* ViewController.swift */,
 				FD4E22F81F39AD3400749FFF /* Main.storyboard */,
 				FD4E22FB1F39AD3400749FFF /* Assets.xcassets */,
 				FD4E22FD1F39AD3400749FFF /* LaunchScreen.storyboard */,
 				FD4E23001F39AD3400749FFF /* Info.plist */,
+				FD4E23061F39ADB300749FFF /* ListViewController.swift */,
 			);
 			path = ClassicPhotosClone;
 			sourceTree = "<group>";
@@ -136,7 +136,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD4E22F71F39AD3400749FFF /* ViewController.swift in Sources */,
+				FD4E23071F39ADB300749FFF /* ListViewController.swift in Sources */,
 				FD4E22F51F39AD3400749FFF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
