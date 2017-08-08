@@ -40,3 +40,33 @@ class PendingOperations {
         return queue
     }()
 }
+
+class ImageDownloader: Operation {
+    let photoRecord: PhotoRecord
+    
+    init(photoRecord: PhotoRecord) {
+        self.photoRecord = photoRecord
+    }
+
+    override func main() {
+        if self.isCancelled {
+            return
+        }
+
+        let imageData = NSData(contentsOf: self.photoRecord.url)
+
+        if self.isCancelled {
+            return
+        }
+
+        if imageData != nil {
+            self.photoRecord.image = UIImage(data: imageData! as Data)
+            self.photoRecord.state = .downloaded
+        }
+        else
+        {
+            self.photoRecord.state = .failed
+            self.photoRecord.image = UIImage(named: "Failed")
+        }
+    }
+}
