@@ -12,6 +12,7 @@
 		FD4E22FC1F39AD3400749FFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD4E22FB1F39AD3400749FFF /* Assets.xcassets */; };
 		FD4E22FF1F39AD3400749FFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD4E22FD1F39AD3400749FFF /* LaunchScreen.storyboard */; };
 		FD4E23071F39ADB300749FFF /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4E23061F39ADB300749FFF /* ListViewController.swift */; };
+		FD4E23091F39B93300749FFF /* PhotoOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4E23081F39B93300749FFF /* PhotoOperations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		FD4E22FE1F39AD3400749FFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD4E23001F39AD3400749FFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD4E23061F39ADB300749FFF /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		FD4E23081F39B93300749FFF /* PhotoOperations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoOperations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				FD4E22FD1F39AD3400749FFF /* LaunchScreen.storyboard */,
 				FD4E23001F39AD3400749FFF /* Info.plist */,
 				FD4E23061F39ADB300749FFF /* ListViewController.swift */,
+				FD4E23081F39B93300749FFF /* PhotoOperations.swift */,
 			);
 			path = ClassicPhotosClone;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			files = (
 				FD4E23071F39ADB300749FFF /* ListViewController.swift in Sources */,
 				FD4E22F51F39AD3400749FFF /* AppDelegate.swift in Sources */,
+				FD4E23091F39B93300749FFF /* PhotoOperations.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
